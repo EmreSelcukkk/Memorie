@@ -16,5 +16,25 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+
+        var listem = arrayListOf<String>("emre","ali","murat","adem","karabulut","özgül")
+        var bosListe = listOf<String>()
+        var i = 0
+        var j =0
+        var x =0
+
+        for( i in listem.size){
+            bosListe=listem[i].lowercase()
+            i++
+        }
+
+       for (x in bosListe.size){
+            if(bosListe.contains("a")){
+            j++ }
+                   x++
+        }
+        for (i in bosListe.size){
+        println(bosListe[i])}
     }
 }
