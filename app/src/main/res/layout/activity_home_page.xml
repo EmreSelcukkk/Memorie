@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.111"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/Animation - 1737401195560.json"
+        app:lottie_rawRes="@raw/animation1"
         app:lottie_scale="1.0" />
 
     <com.airbnb.lottie.LottieAnimationView
@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.685"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/Animation - 1737401837664.json"
+        app:lottie_rawRes="@raw/animation2"
         app:lottie_scale="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
