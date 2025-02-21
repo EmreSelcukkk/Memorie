@@ -7,4 +7,6 @@ import com.example.memories.databinding.FragmentPersonalBinding
 class PersonalFragment : Fragment() {
     private lateinit var binding: FragmentPersonalBinding
 
+
+
 }
