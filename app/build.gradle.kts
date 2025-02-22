@@ -49,8 +49,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    implementation("com.airbnb.android:lottie:5.0.3")
+    implementation("com.airbnb.android:lottie:6.2.0")
     implementation ("androidx.navigation:navigation-fragment-ktx:2.7.5")
     implementation ("androidx.navigation:navigation-ui-ktx:2.7.5")
+    implementation ("com.google.android.gms:play-services-maps:18.2.0")
+    implementation ("com.google.android.gms:play-services-location:21.0.1")
 
 }
